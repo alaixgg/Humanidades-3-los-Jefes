@@ -57,13 +57,26 @@
             app:srcCompat="@drawable/logo_utadeo_horizontal" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonind"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#A3705C"
-            android:text="Button"
-            tools:layout_editor_absoluteX="263dp"
-            tools:layout_editor_absoluteY="708dp" />
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#A3705C"
+            android:text="Indice"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/buttonmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#A3705C"
+            android:text="Resumen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         />
 

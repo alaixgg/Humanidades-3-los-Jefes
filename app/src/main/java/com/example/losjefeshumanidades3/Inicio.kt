@@ -1,41 +1,28 @@
 package com.example.losjefeshumanidades3
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.widget.Button
+
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.losjefeshumanidades3.databinding.ActivityInicioBinding
+import android.content.Intent
+
+
 
 class Inicio : AppCompatActivity() {
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityInicioBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_inicio)
 
-        binding = ActivityInicioBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        setSupportActionBar(binding.toolbar)
-
-        val navController = findNavController(R.id.nav_host_fragment_content_inicio)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
-        setupActionBarWithNavController(navController, appBarConfiguration)
-
-        binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null)
-                .setAnchorView(R.id.fab).show()
+        val buttonCap1 = findViewById<Button>(R.id.buttonind)
+        buttonCap1.setOnClickListener {
+            val intent = Intent(this, main::class.java)
+            startActivity(intent)
         }
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment_content_inicio)
-        return navController.navigateUp(appBarConfiguration)
-                || super.onSupportNavigateUp()
+        val buttonmenu = findViewById<Button>(R.id.buttonmenu)
+        buttonCap1.setOnClickListener {
+            val intent = Intent(this, ResumenActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
