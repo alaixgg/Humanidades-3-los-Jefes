@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#95c4d6"
+    tools:context=".cap1_1Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#95c4d6">
+
+
+        <TextView
+            android:id="@+id/texto_contenido"
+
+            android:layout_width="300dp"
+            android:layout_height="423dp"
+            android:layout_marginTop="20dp"
+            android:text="Los estudiantes lo miraban con odio, con desprecio. Él, que había sido siempre el dueño de aquel lugar, ahora se sentía como un intruso. ¿Cómo había llegado a esto? ¿Cómo habían llegado los estudiantes  a esto? \n°No quiero saber quién inició este tumulto° dijo, Pero las palabras le sonaron huecas, como si no tuvieran peso. Los estudiantes no lo escuchaban. O peor aún, lo escuchaban, pero no les importaba. Y en ese momento, sintió algo que no había sentido en años: miedo. Miedo de perder el control. \nNi siquiera entendía bien lo que sucedía, el solo había hecho lo correcto, los estudiantes estaban aprovechando los horarios de los exámenes para poder gestionar sus trampas, les puse fin no dándoles el horario. Solucioné soy el director, soy el jefe, ellos solo deberían obedecer ."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"></TextView>
+
+        <TextView
+            android:id="@+id/texto_pre"
+
+            android:layout_width="303dp"
+            android:layout_height="227dp"
+            android:text="OPCIONES DE PREGUNTA \n
+¿Puede un director perder el control de su propia escuela?\n
+¿Qué sucede cuando quienes deben obedecer deciden desafiar la autoridad\n
+ ¿Es el miedo un signo de debilidad o el inicio de una verdadera lucha por el poder?\n
+Cuando el orden se convierte en imposición, ¿hasta dónde pueden llegar los oprimidos?\n
+¿Hasta qué punto la justicia y el control pueden confundirse con la tiranía ? \n
+Si siempre has tenido el control, ¿cómo reaccionas cuando lo pierdes?\n
+¿Qué tan peligroso puede ser subestimar la determinación de quienes te rodean?"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texto_contenido"></TextView>
+
+        <TextView
+            android:id="@+id/pagina_numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="4"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="212dp"
+            android:layout_height="39dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/captura_de_pantalla_2025_03_25_132217" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="220dp"
+            android:layout_height="42dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/captura_de_pantalla_2025_03_25_135833" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
