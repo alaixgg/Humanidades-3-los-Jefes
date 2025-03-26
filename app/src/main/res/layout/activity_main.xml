@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#95c4d6"
+    tools:context=".Inicio">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include
+            android:id="@+id/contentLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imagen_arr"
+            android:layout_width="321dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/captura_de_pantalla_2025_03_25_132217"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imagenabaj"
+            android:layout_width="344dp"
+            android:layout_height="59dp"
+            android:src="@drawable/captura_de_pantalla_2025_03_25_135833"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/buttonc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#564F4A"
+            android:text="Capitulo 1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/capitulo1" />
+
+        <Button
+            android:id="@+id/buttonc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#564F4A"
+            android:text="Capitulo 2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/capitulo2" />
+
+        <Button
+            android:id="@+id/buttonc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#564F4A"
+            android:text="Capitulo 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/capitulo3" />
+
+        <Button
+            android:id="@+id/buttonc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#564F4A"
+            android:text="Capitulo 4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/capitulo4" />
+
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contenido"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagen_arr" />
+
+        <TextView
+            android:id="@+id/capitulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+            android:text="Capitulo I"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contenido" />
+
+        <TextView
+            android:id="@+id/capitulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Capitulo II"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/capitulo1"
+            app:layout_constraintTop_toBottomOf="@+id/capitulo1" />
+
+        <TextView
+            android:id="@+id/capitulo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Capitulo III"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/capitulo2"
+            app:layout_constraintTop_toBottomOf="@+id/capitulo2" />
+
+        <TextView
+            android:id="@+id/capitulo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Capitulo IV"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/capitulo3"
+            app:layout_constraintTop_toBottomOf="@+id/capitulo3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="344dp"
+            android:layout_height="59dp"
+            android:src="@drawable/captura_de_pantalla_2025_03_25_135833"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

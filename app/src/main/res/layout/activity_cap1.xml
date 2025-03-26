@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#E7DFC6"
+    tools:context=".Inicio">
+
+    este <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/capitulo_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="serif"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"/><![CDATA[
+
+        \" se repetía en su mente, secándose las manos con un pañuelo, niños que no saben lo que es el poder de verdad.\n\nPero cuando salió al patio y vio las filas formadas, los rostros enrojecidos por el sol y la ira, sintió que el suelo temblaba, era una masa, un monstruo que respiraba al unísono.\n\nFerrufino, el director, el hombre que había dedicado su vida a mantener el orden, se sintió por un momento pequeño, insignificante."
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@id/capitulo_titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+        ]]>
+
+        <TextView
+            android:id="@+id/texto_contenido"
+            Son
+            niños...
+            solo
+            android:layout_width="213dp"
+            android:layout_height="317dp"
+            android:text="Ferrufino se miró en el espejo del baño, ajustándose la corbata con manos temblorosas. El colegio estaba en silencio, pero ese silencio era tremendamente inquietante. Sabía que los estudiantes estaban conspirando, se escuchaban murmullos en los pasillos, evitaban su mirada. Él lo notaba todo.\n\nSiempre creyó tener la situación bajo control, al fin y al cabo, él era el jefe. Pero esta vez, sentía que algo era distinto. Algo en el aire, en la forma en que los muchachos se miraban entre sí, en cómo susurraban cuando él pasaba.\n\nEsta vez no eran solo niños, eran una amenaza. \"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="107dp"
+
+        <TextView
+            android:id="@+id/pagina_numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
