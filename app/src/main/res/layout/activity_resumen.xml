@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#95c4d6"
+    tools:context=".Cap22Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#95c4d6">
+
+
+        <TextView
+            android:id="@+id/texto_contenido"
+            android:layout_width="297dp"
+            android:layout_height="497dp"
+            android:text="En un colegio, un grupo de estudiantes decide enfrentarse a las autoridades para exigir un cambio en los horarios de examen. Lo que comienza como una causa común pronto se convierte en una lucha de egos y liderazgo, donde la unidad se pone a prueba y las lealtades se fragmentan. \n\nMientras la tensión aumenta, los jóvenes deben elegir entre mantenerse firmes en su propósito o ceder ante las diferencias que amenazan con dividirlos. En este relato, la ambición, el poder y la rebelión se entrelazan en un conflicto donde no hay vencedores absolutos."
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tadeo"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="212dp"
+            android:layout_height="39dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/captura_de_pantalla_2025_03_25_132217" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="220dp"
+            android:layout_height="42dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/captura_de_pantalla_2025_03_25_135833" />
+
+        <ImageView
+            android:id="@+id/tadeo"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/logo_utadeo_horizontal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
