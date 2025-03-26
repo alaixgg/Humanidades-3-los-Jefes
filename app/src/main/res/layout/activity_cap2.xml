@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="#E7DFC6"
-    tools:context=".Cap1Activity">
+    tools:context=".Cap2Activity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:fontFamily="serif"
             android:gravity="center"
             android:paddingTop="16dp"
-            android:text="I"
+            android:text="II"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
 
             android:layout_width="302dp"
             android:layout_height="614dp"
-            android:text="Ferrufino se miró en el espejo del baño, ajustándose la corbata con manos temblorosas. El colegio estaba en silencio, pero ese silencio era tremendamente inquietante. Sabía que los estudiantes estaban conspirando, se escuchaban murmullos en los pasillos, evitaban su mirada. Él lo notaba todo.\n\nSiempre creyó tener la situación bajo control, al fin y al cabo, él era el jefe. Pero esta vez, sentía que algo era distinto. Algo en el aire, en la forma en que los muchachos se miraban entre sí, en cómo susurraban cuando él pasaba.\n\nEsta vez no eran solo niños, eran una amenaza. \n -Son solo niños-. se repetía en su mente, secándose las manos con un pañuelo, niños que no saben lo que es el poder de verdad. Pero cuando salió al patio y vio las filas formadas, los rostros enrojecidos por el sol y la ira, sintió que el suelo temblaba, eran una masa, un monstruo que respiraba al unísono. Ferrufino, el director, el hombre que había dedicado su vida a mantener el orden, se sintió por un momento pequeño, insignificante. "
+            android:text="Javier sintió el sudor correr por su espalda, era frío a pesar del calor que hacia en el patio. El no podía dejar de temblar por dentro. No era miedo, o por lo menos eso se repetía una y otra vez. Él era fuerte, era el líder, el que siempre sabía qué hacer. Pero esta vez, algo en el aire lo hacía dudar. Algo en la forma en que los otros lo miraban, esperando que los guiara, que les dijera qué hacer. Y él no estaba seguro. \n\nFerrufino estaba ahí, frente a ellos, hablando con esa voz calmada que siempre usaba cuando quería imponer su autoridad. Javier lo miraba, pero no escuchaba sus palabras. Solo veía sus labios moverse, como si fuera un títere en un escenario. Y en ese momento, sintió una rabia que le quemaba el pecho. No era justo. No era justo que Ferrufino los tratara como si fueran basura, como si no tuvieran derecho a protestar, a defenderse. \n \nSu amigo, quien nos cuenta la historia ya le había dicho que no se metiera, sabiendo que si se involucraba demasiado, lo expulsarían."
             android:textAlignment="center"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="serif"
-            android:text="4"
+            android:text="6"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

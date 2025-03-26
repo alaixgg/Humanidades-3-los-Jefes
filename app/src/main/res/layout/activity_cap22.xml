@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="#95c4d6"
-    tools:context=".cap1_1Activity">
+    tools:context=".Cap22Activity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -18,10 +18,12 @@
         <TextView
             android:id="@+id/texto_contenido"
 
-            android:layout_width="300dp"
-            android:layout_height="423dp"
+            android:layout_width="302dp"
+            android:layout_height="444dp"
             android:layout_marginTop="20dp"
-            android:text="Los estudiantes lo miraban con odio, con desprecio. Él, que había sido siempre el dueño de aquel lugar, ahora se sentía como un intruso. ¿Cómo había llegado a esto? ¿Cómo habían llegado los estudiantes  a esto? \n°No quiero saber quién inició este tumulto° dijo, Pero las palabras le sonaron huecas, como si no tuvieran peso. Los estudiantes no lo escuchaban. O peor aún, lo escuchaban, pero no les importaba. Y en ese momento, sintió algo que no había sentido en años: miedo. Miedo de perder el control. \nNi siquiera entendía bien lo que sucedía, el solo había hecho lo correcto, los estudiantes estaban aprovechando los horarios de los exámenes para poder gestionar sus trampas, les puse fin no dándoles el horario. Solucioné soy el director, soy el jefe, ellos solo deberían obedecer ."
+            android:text="Pero ahora, viendo a Ferrufino frente a ellos, sintió que no podía quedarse callado. No podía permitir que el director los humillara una vez más. No podía permitir que tomara el control. \n°Marcharemos ° dijo, y su voz sonó más firme de lo que esperaba. Comenzaron a marchar, taconeando con fuerza, hasta que les dolieron los pies. Javier gritó junto con los demás, sintiendo que cada palabra era un golpe contra Ferrufino, contra el sistema, contra todo lo que los oprimía. Pero en el fondo, sabía que no era suficiente, Ferrufino no iba a ceder. Sabía que, al final, ellos siempre perderían.
+\nPero no importaba. Lo importante era luchar, era resistir, era mostrarle a Ferrufino que no eran solo niños, que no iban a aceptar cualquier cosa que él decidiera. Lo importante era no rendirse.
+°¡Más fuerte! ° gritó alguien desde atrás, y Javier sintió que el vocerío aumentaba, ensordecedor. "
             android:textAlignment="center"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,21 +33,17 @@
         <TextView
             android:id="@+id/texto_pre"
 
-            android:layout_width="303dp"
-            android:layout_height="227dp"
+            android:layout_width="290dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="30dp"
             android:text="OPCIONES DE PREGUNTA \n
-¿Puede un director perder el control de su propia escuela?\n
-¿Qué sucede cuando quienes deben obedecer deciden desafiar la autoridad\n
- ¿Es el miedo un signo de debilidad o el inicio de una verdadera lucha por el poder?\n
-Cuando el orden se convierte en imposición, ¿hasta dónde pueden llegar los oprimidos?\n
-¿Hasta qué punto la justicia y el control pueden confundirse con la tiranía ? \n
-Si siempre has tenido el control, ¿cómo reaccionas cuando lo pierdes?\n
-¿Qué tan peligroso puede ser subestimar la determinación de quienes te rodean?"
+ ¿Quién tiene realmente el control en esta historia: Ferrufino con su autoridad o Javier con su determinación?
+ ¿Se puede ganar una batalla cuando el otro bando ni siquiera reconoce la guerra?"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textSize="11dp"
+            android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/texto_contenido"></TextView>
 
@@ -56,7 +54,7 @@ Si siempre has tenido el control, ¿cómo reaccionas cuando lo pierdes?\n
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="serif"
-            android:text="5"
+            android:text="7"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
